@@ -37,11 +37,13 @@ public class CubeMove : MonoBehaviour
 
     IEnumerator ExampleCoroutine1()
     {
+        MeshRenderer mesh = gameObject.GetComponent<MeshRenderer>();
         speed_1 = speed_2;
         yield return null;
     }
     IEnumerator ExampleCoroutine2()
     {
+        MeshRenderer mesh = gameObject.GetComponent<MeshRenderer>();
         speed_1 = 0f;
         yield return null;
     }

@@ -29,6 +29,7 @@ public class Server : MonoBehaviour {
 
         try {
             server = new TcpListener(IPAddress.Any, Port);
+            //server = new TcpListener(IPAddress.Any, Port);
             server.Start();
 
             Startlistening();

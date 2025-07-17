@@ -1,6 +1,12 @@
 clc;
-clear all;
+%%to be in file
+%to be in terminal
+%%clear all;
+%jg=0;jr=0;jb=0;
+%save all;
+%%load all;
 close all;
+
 name = "Matlab";
 Client = TCPInit('127.0.0.1',55001,name);
 
@@ -16,6 +22,7 @@ L(6) = Revolute('d',-gripping_point,'a',0,'alpha',pi);
 robot = SerialLink(L);
 joints = [0,-pi/2,0,0,-pi/2,0];
 % robot.plot(joints);
+%Z2 = 0.087;
 
 for i = 1 : 3
 
@@ -84,21 +91,23 @@ t = [0:0.1:2];
         func_data(Client, q, b);
         b=b+1;     
     end
-    
+   
     color = color_check(Client); % function for detecting colors
-    
     if color == 1 % Red sorting
+        jr=jr+1;
         X2 = 0.44136;
         Y2 = -0.064;
-        Z2 = 0.087+0.08;
+        Z2 = 0.087+jr*0.1; %+0.08
     elseif color == 2 % Green sorting
+        jg=jg+1;
         X2 = 0.44136;
         Y2 = -0.2083;
-        Z2 = 0.087+0.12;
+        Z2 = 0.087+jg*0.1;%+0.12
     else % Blue sorting
+        jb=jb+1;
         X2 = 0.3027599;
         Y2 = -0.2083;
-        Z2 = 0.087+0.2;
+        Z2 = 0.087+jb*0.1;%+0.2
     end
     
     pause(1);

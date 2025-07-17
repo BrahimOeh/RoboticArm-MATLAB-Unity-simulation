@@ -9,23 +9,23 @@ public class CubeInstantiate : MonoBehaviour
     void Start()
     {
         GameObject obj = Instantiate(myPrefabGreen, new Vector3(-3.669f, 0.514f, 3.445f), Quaternion.identity);
-        obj.transform.parent = GameObject.Find("BaseOrigin").transform;
+        obj.transform.parent = GameObject.Find("BaseOrig").transform;
     }
 
     public void InstantiateRed()
     {
         GameObject obj = Instantiate(myPrefabRed, new Vector3(-3.669f, 0.514f, 3.445f), Quaternion.identity);
-        obj.transform.parent = GameObject.Find("BaseOrigin").transform;
+        obj.transform.parent = GameObject.Find("BaseOrig").transform;
     }
 
     public void InstantiateGreen()
     {
         GameObject obj = Instantiate(myPrefabGreen, new Vector3(-3.669f, 0.514f, 3.445f), Quaternion.identity);
-        obj.transform.parent = GameObject.Find("BaseOrigin").transform;
+        obj.transform.parent = GameObject.Find("BaseOrig").transform;
     }
     public void InstantiateBlue()
     {
         GameObject obj = Instantiate(myPrefabBlue, new Vector3(-3.669f, 0.514f, 3.445f), Quaternion.identity);
-        obj.transform.parent = GameObject.Find("BaseOrigin").transform;
+        obj.transform.parent = GameObject.Find("BaseOrig").transform;
     }
 }
