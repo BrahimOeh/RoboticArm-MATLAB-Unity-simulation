@@ -2,6 +2,7 @@
 
 ![license](https://img.shields.io/badge/license-MIT-purple)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat\&logo=github\&logoColor=white)](https://github.com/BrahimOeh)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/brahimoeh)
 [![Unity](https://img.shields.io/badge/Unity-%23000000.svg?logo=unity&logoColor=white)](https://unity.com)
 [![C#](https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white)](#)
 <a href="https://mathworks.com">
