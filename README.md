@@ -28,6 +28,7 @@ This behavioural simulation mimics a robotic picking system using:
 
 ### 🧩 SolidWorks Design
 ![SolidWorks Model](images/Solidworks.png)
+by **Petar Crnjak** *https://github.com/PCrnjak/Faze4-Robotic-arm*
 
 ### 🌀 Blender Rigging
 ![Blender Setup](images/Blender.png)
