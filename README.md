@@ -5,7 +5,7 @@
 [![Unity](https://img.shields.io/badge/Unity-%23000000.svg?logo=unity&logoColor=white)](https://unity.com)
 [![C#](https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white)](#)
 <a href="https://mathworks.com">
-  <img src="https://private-user-images.githubusercontent.com/117108901/378135178-66c27df1-918e-4437-ae99-171d51a7ecad.png" width="150"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/800px-Matlab_Logo.png" width="150"/>
 </a>
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023a-orange?logo=mathworks)](https://mathworks.com)
 
