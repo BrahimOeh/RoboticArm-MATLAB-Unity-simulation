@@ -27,10 +27,10 @@ This behavioural simulation mimics a robotic picking system using:
 ## 🖼️ Modeling & Rigging Workflow
 
 ### 🧩 SolidWorks Design
-![SolidWorks Model](RoboticArm-MATLAB-Unity-simulation/images/Solidworks.png)
+![SolidWorks Model](images/Solidworks.png)
 
 ### 🌀 Blender Rigging
-![Blender Setup](RoboticArm-MATLAB-Unity-simulation/images/Blender.png)
+![Blender Setup](images/Blender.png)
 
 ### 📷 Control & Simulation/Animation in Matlab + Unity
 
